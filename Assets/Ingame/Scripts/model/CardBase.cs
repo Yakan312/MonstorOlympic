@@ -20,11 +20,12 @@ namespace Syndicate
         public int CardID => cardId;
         public int CardType => cardType;
         public int UniID => uniId;
+        public bool IsFacedown => isFaceDown;
 
         // Field
         protected int cardId;       // カードのID
         protected int cardType;     // カードの種類
         protected int uniId;        // カードのユニークID
-
+        protected bool isFaceDown;  // 裏向きフラグ
     }
 }

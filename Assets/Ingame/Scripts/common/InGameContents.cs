@@ -11,7 +11,6 @@ namespace Syndicate
     public static class InGameContents
     {
         #region Default Values
-
         #endregion
 
         #region interface
@@ -22,6 +21,7 @@ namespace Syndicate
         {
             int CardID { get;}
             int CardType { get;}
+            bool IsFacedown { get; }
         }
         #endregion
         
